@@ -12,7 +12,7 @@ pg = new Pool({
   port: 5432,
   database: 'node_test',
   user: 'postgres',
-  password: '04022002',
+  password: 'password here',
 })
 
 pg.connect((err) => {
